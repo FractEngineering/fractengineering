@@ -34,7 +34,7 @@ header h1 a{
 }
 
 header h1 a:hover{
-	text-decoration: underline;
+	text-decoration: underline
 }
 
 nav{
@@ -88,10 +88,11 @@ main .tile{
 	min-height: 200px;
 }
 
-main .tile:hover{
+#orange:hover, #green:hover{
 	-webkit-box-shadow: inset 0 0 5px #000000;
 	-moz-box-shadow:    inset 0 0 5px #000000;
 	box-shadow:         inset 0 0 5px #000000;
+	cursor: pointer;
 }
 
 #yellow{
@@ -127,8 +128,8 @@ main .tile:hover{
 }
 
 .tile img{
-	margin-top: 30%;
+	margin-top: 10%;
 	margin-left: 50%;
-	left: -75px;
+	left: -100px;
 	position: absolute;
-	width: 150px;
+	width: 200px;

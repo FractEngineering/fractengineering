@@ -18,6 +18,7 @@ header{
 
 .profile {
     width: 300px;
+    height: 400px;
     display: table;
     padding: 20px;
     position: absolute;

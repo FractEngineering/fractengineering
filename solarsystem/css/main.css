@@ -23,6 +23,15 @@ h2{
 	font-weight: normal;
 }
 
+h2 a{
+	color: red;
+	text-decoration: none;
+}
+
+h2 a:hover{
+	text-decoration: underline;
+}
+
 #sun {
 	background-color: yellow;
 	border-radius: 50%;

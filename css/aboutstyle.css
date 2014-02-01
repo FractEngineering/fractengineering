@@ -1,5 +1,5 @@
 html{
-	min-width: 1080px;
+	min-width: 800px;
 }
 
 header{
@@ -30,7 +30,6 @@ header{
 .profile h1{
 	text-align: center;
 	color: white;
-	font-size: 20px;
 }
 
 .profile p{

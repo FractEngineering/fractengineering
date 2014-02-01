@@ -1,0 +1,52 @@
+html{
+	min-width: 800px;
+}
+
+header{
+	background-color: #2980b9;
+}
+
+.container {
+    height: 100px;
+    display: table;
+    margin: auto;
+    position: relative;
+    width: 1080px;
+    top: 40px;
+    color: black;
+}
+
+.profile {
+    width: 300px;
+    display: table;
+    padding: 20px;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: padding-box;
+}
+
+.profile h1{
+	text-align: center;
+	color: white;
+}
+
+.profile p{
+	margin-top: 10px;
+}
+
+#frank{
+	left: 0;
+	background-color: #e67e22;
+}
+
+#site{
+	left: 360px;
+	background-color: #c0392b;
+}
+
+
+#renzo{
+	right: 0;
+	background-color: #f1c40f;
+}

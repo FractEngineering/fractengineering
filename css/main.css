@@ -108,3 +108,18 @@ main .tile:hover{
 	margin-left: 80%;
 	background-color: #8e44ad;
 }
+
+.tile h1{
+	text-align: center;
+	margin-top:95%;
+	color: white;
+	font-family:"lato";
+	font-size: 30px;
+}
+
+.tile img{
+	margin-top: 10%;
+	margin-left: 50%;
+	left: -100px;
+	position: absolute;
+	width: 200px;

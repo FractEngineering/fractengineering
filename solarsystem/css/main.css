@@ -1,0 +1,202 @@
+html, body {
+    width: 98%;
+    height: 98%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+    background-color: black;
+    font-family: helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+	margin-left: 20px;
+	font-weight: normal;
+}
+
+h2{
+	margin-left: 20px;
+	margin-top: -10px;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#sun {
+	background-color: yellow;
+	border-radius: 50%;
+	
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    height: 80px;
+    width: 80px;
+    margin-top: -40px; 
+    margin-left: -40px;
+}
+
+.planet{
+    border-radius: 50%;
+    position: absolute;
+}
+
+.orbit{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+}
+
+/* ================================== */
+
+#earth {
+	background-color: #6666FF;
+	height: 50px;
+    width: 50px;
+    
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+	
+    /* top: 25%;
+    left: 25%;
+    
+    margin-left: -80px;
+    margin-top: -25px; */
+}
+
+#earth-orbit {
+    width: 300px;
+    height: 300px;
+    margin-top: -150px;
+    margin-left: -150px;
+    
+    -webkit-animation: spin-right 37s linear infinite;
+     -moz-animation: spin-right 37s linear infinite;
+      -ms-animation: spin-right 37s linear infinite;
+       -o-animation: spin-right 37s linear infinite;
+          animation: spin-right 37s linear infinite;
+}
+
+/* ================================== */
+
+#mars {
+	background-color: #c92118;
+	
+	left: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+    
+    height: 40px;
+    width: 40px;
+}
+
+#mars-orbit {
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+    
+    -webkit-animation: spin-right 69s linear infinite;
+     -moz-animation: spin-right 69s linear infinite;
+      -ms-animation: spin-right 69s linear infinite;
+       -o-animation: spin-right 69s linear infinite;
+          animation: spin-right 69s linear infinite;
+}
+
+/* ================================== */
+
+#jupiter {
+	background-color: #FF8B5A;
+	
+    left: 50%;
+    margin-left: -33px;
+    margin-top: -33px;
+    
+    height: 66px;
+    width: 66px;
+}
+
+#jupiter-orbit {
+    width: 700px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -350px;
+    
+    -webkit-animation: spin-right 433s linear infinite;
+     -moz-animation: spin-right 433s linear infinite;
+      -ms-animation: spin-right 433s linear infinite;
+       -o-animation: spin-right 433s linear infinite;
+          animation: spin-right 433s linear infinite;
+}
+
+/* ================================== */
+
+#moon {
+	background-color: grey;
+    
+    height: 30px;
+    width: 30px;
+    
+    left: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+#moon-orbit {
+    width: 120px;
+    height: 120px;
+    
+    margin-top: -210px;
+    margin-left: -60px;
+    
+    -webkit-animation: spin-right 3s linear infinite;
+     -moz-animation: spin-right 3s linear infinite;
+      -ms-animation: spin-right 3s linear infinite;
+       -o-animation: spin-right 3s linear infinite;
+          animation: spin-right 3s linear infinite;
+}
+
+/* ================================== */
+
+footer{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+footer p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.hover{
+	background-color: red;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(-360deg);
+       -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+         -o-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin-right {
+  100% {
+    -webkit-transform: rotate(-360deg);
+       -moz-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+         -o-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}

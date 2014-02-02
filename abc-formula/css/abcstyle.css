@@ -4,6 +4,8 @@ header{
 
 header h1{
 	text-align: center;
+	width: 800px;
+	left: -400px;
 }
 
 #container{
@@ -22,6 +24,10 @@ form h2{
 	font-size: 18px;
 	font-weight: normal;
 	margin: 0;
+}
+
+form input{
+	margin-top: 10px;
 }
 
 .output{

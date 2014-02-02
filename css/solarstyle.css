@@ -175,17 +175,6 @@ h2 a:hover{
 
 /* ================================== */
 
-footer{
-	position: absolute;
-	bottom: 10px;
-	left: 10px;
-}
-
-footer p{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
 .hover{
 	background-color: red;
 }

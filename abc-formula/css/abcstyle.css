@@ -1,0 +1,36 @@
+header{
+	background-color: #2ecc71;
+}
+
+header h1{
+	text-align: center;
+	width: 800px;
+	left: -400px;
+}
+
+#container{
+	background-color: white;
+	display: table;
+	width: 200px;
+	padding: 50px;
+	margin: auto;
+	text-align: center;
+	border: 2px solid black;
+	position: relative;
+	top: 30px;
+}
+
+form h2{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+}
+
+form input{
+	margin-top: 10px;
+}
+
+.output{
+	font-size: 14px;
+	margin-top: 10px;
+}

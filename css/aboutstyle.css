@@ -18,7 +18,7 @@ header{
 
 .profile {
     width: 300px;
-    height: 300px;
+    height: 450px;
     display: table;
     padding: 20px;
     position: absolute;
@@ -54,8 +54,23 @@ header{
 	background-color: #c0392b;
 }
 
+#site img {
+	width: 200px;
+	display:block;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+}
 
 #renzo{
 	right: 0;
 	background-color: #f1c40f;
+}
+
+#renzo img {
+	width: 200px;
+	display:block;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
 }

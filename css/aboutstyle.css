@@ -41,6 +41,14 @@ header{
 	background-color: #e67e22;
 }
 
+#frank img {
+	width: 200px;
+	display:block;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+}
+	
 #site{
 	left: 360px;
 	background-color: #c0392b;
